@@ -3,20 +3,20 @@ pipiline
 agent any
 stages{
 
-    stage('Build')
+    stage('build')
     {
         steps {
             echo "This is build stage"
         }
     }
 
-    stage('TEST')
+    stage('test')
     {
         steps {
             echo "This is test stage"
         }
      }
-       stage('Deploy')
+    stage('deploy')
     {
         steps {
             echo "This is deploy stage"
